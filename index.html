@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wraper">
+       <div class="title"> <h1>RPS GAME</h1> </div>
+       <div id="disclaimer"></div>
+        <div class="game">
+       <button class="rpcButton" value="rock" onclick="getUserChoice()" id="rock">
+            ✊
+        </button>
+         <button class="rpcButton" value="paper" onclick="getUserChoice()" id="paper">
+            ✋
+        </button>
+       <button class="rpcButton"  value="scissor"  onclick="getUserChoice()" id="scissor">
+            ✌
+        </button> 
+
+<div id="score" >! Welcome !</div>
+<button class="endBtn" id="endGame" onclick="endGame()">🔴</button>
+
+    </div>
+</div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
